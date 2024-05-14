@@ -1,0 +1,26 @@
+.model-stats {
+    background-color: #f9f9f9;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.model-stats h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.model-stats table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.model-stats th,
+.model-stats td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.model-stats th {
+    text-align: left;
+}

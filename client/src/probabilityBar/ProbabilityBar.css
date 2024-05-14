@@ -1,0 +1,19 @@
+.probability-bar-widget {
+    background-color: white;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.probability-bar {
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.probability-fill {
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 10px;
+    transition: width 1.5s ease-in-out;
+}

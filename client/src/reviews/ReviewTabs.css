@@ -1,0 +1,34 @@
+.review-tabs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    /* grid-auto-rows: 30%; */
+    /* Each row occupies about 30% of height */
+    gap: 10px;
+    height: 53%;
+    padding: 10px;
+    /* Set the height of the grid to occupy about 70% of the container's height */
+}
+
+.review-tab {
+    padding: 15px;
+    /* Increased padding for bigger tabs */
+    background-color: #31363F;
+    color: #F1F1F1;
+    border-radius: 10px;
+    /* Increased border radius for rounded corners */
+    cursor: pointer;
+    overflow: hidden;
+    white-space: normal;
+    /* Wrap the text within the tab */
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /* Display as a flexible box */
+    -webkit-line-clamp: 3;
+    /* Limit to 3 lines */
+    -webkit-box-orient: vertical;
+    /* Stack lines vertically */
+}
+
+.review-tab:hover {
+    outline: 2px solid grey;
+}
